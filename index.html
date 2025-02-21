@@ -19,43 +19,98 @@
 
     
     <script type="module" crossorigin src="/stp-7970/commonHelpers3.js"></script>
-    <link rel="stylesheet" href="/stp-7970/assets/index-132fe972.css">
+    <link rel="stylesheet" href="/stp-7970/assets/index-5979b0bf.css">
   </head>
-  <body>
+  <body >
+   
+      
     <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./privacy-policy.html" class="nav-link">Page 2</a>
-      </li>
+  <div class="container">
+    <div class="header-wrapper">
+      
+      <img
+        srcset="/stp-7970/assets/favikon1x-94a801d9.png 1x, /stp-7970/assets/favikon2x-b0527e29.png 2x"
+        width="42"
+        height="42"
+        src="/stp-7970/assets/favikon1x-94a801d9.png"
+        alt="Favicon Storm Wings"
+        class="logo-img"
+      />
+      <h2 class="logo-text">Storm Wings</h2>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-    <button class="burger-button" data-modal-open>
-      <svg class="burger-icon">
-        <use href="/stp-7970/assets/sprite-6928e379.svg#icon-burger"></use>
-      </svg>
-    </button>
-    <button class="burger-button" data-modal-open>
-      <svg class="burger-icon">
-        <use href="/stp-7970/assets/sprite-6928e379.svg#icon-right"></use>
-      </svg>
-    </button>
-    <button class="burger-button" data-modal-open>
-      <svg class="burger-icon">
-        <use href="/stp-7970/assets/sprite-6928e379.svg#icon-google"></use>
-      </svg>
-    </button>
-    <button class="burger-button" data-modal-open>
-      <svg class="burger-icon">
-        <use href="/stp-7970/assets/sprite-6928e379.svg#icon-back"></use>
-      </svg>
-    </button>
-  </nav>
+      <nav class="nav" >
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./privacy-policy.html" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./page-3.html" class="nav-link">Game Description</a>
+          </li>
+          <li class="nav-item">
+            <a href="./page-3.html" class="nav-link">Advantages</a>
+          </li>
+          <li class="nav-item">
+            <a href="./page-3.html" class="nav-link">User Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a href="./page-3.html" class="nav-link">How to Play</a>
+          </li>
+          <li class="nav-item">
+            <a href="./page-3.html" class="nav-link">Our Uniqueness</a>
+          </li>
+        </ul>
+      </nav>
+      <button type="button" class="burger-button" data-modal-open>
+        <img
+          width="16"
+          height="14"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA2SURBVHgB7dEhCgBQCAPQ8U+w+1/2GywWiw4x+ECwLIwBjqhjfH7z+CAmqbbTrSbPDrjV8qwBUhow9xWdKKUAAAAASUVORK5CYII="
+          alt="burger-button"
+          class="burger-img"
+        />
+      </button>
+    </div>
+  </div>
 </header>
 
+    <div class="backdrop is-hidden" data-backdrop>
+    <div class="modal">
+    <button type="button" class="back-button is-hidden" data-modal-close>
+        <img
+          width="20"
+          height="16"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAYAAABfJS4tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFVSURBVHgBvZMxT4NgEIbvQI1jnbQ6CDGxdqumg5vE6GroT/EXlP6DdnRzdaNOGrXipok2jHQpuFg2GZs05TzANlqLAYK+yZd7L3ffw4XcB/BHEuMK6lFV25bWlZ79ZkBe4ABKRHVEUEryBmaBL8RBo4w8AcGGDMJYKJGDol/Tb0wTMghjoCb6DDVMBzIKf0CTy+NjIpAOi0tt/erR+VoUouATpFeBj0KATRqN7JPDqgazE0M49V6dCMMix8Zl51n7jVo73j3wx3gOiNIURnSqd7rNwE/XzeoPHspbxaCsJFkzq+++9uxBa3InIuN+eXP1zHLcofi9OR18cqckFwvIUE6XSUCXP/gkzmtMC2fQ9Y5cVHniNQQccn4hzGvUb7sNRNLYGkTje0ggH6AVGqJKEBBykqpUCiSK72y99t3LigA5iR+T92mDNYTcwLPKDcy/QoL/0AfB0qJPCjXukQAAAABJRU5ErkJggg=="
+          alt="burger-button"
+          class="back-img"
+        />
+      </button>
+
+    <nav class="modal-nav is-hidden" data-modal>
+        <ul class="modal-nav-list">
+          <li class="modal-nav-item">
+            <a href="./privacy-policy.html" class="modal-nav-link">Home</a>
+          </li>
+
+          <li class="modal-nav-item">
+            <a href="./page-3.html" class="modal-nav-link">Game Description</a>
+          </li>
+          <li class="modal-nav-item">
+            <a href="./page-3.html" class="modal-nav-link">Advantages</a>
+          </li>
+          <li class="modal-nav-item">
+            <a href="./page-3.html" class="modal-nav-link">User Reviews</a>
+          </li>
+          <li class="modal-nav-item">
+            <a href="./page-3.html" class="modal-nav-link">How to Play</a>
+          </li>
+          <li class="modal-nav-item">
+            <a href="./page-3.html" class="modal-nav-link">Our Uniqueness</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+</div>
 
     <section class="vite-promo">
   <div class="container">
@@ -338,6 +393,7 @@
   </div>
 </section> -->
 
+  
 
     
   </body>
