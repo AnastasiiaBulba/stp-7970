@@ -19,7 +19,9 @@
 
     
     <script type="module" crossorigin src="/stp-7970/commonHelpers3.js"></script>
-    <link rel="stylesheet" href="/stp-7970/assets/index-2ad18e3c.css">
+    <link rel="modulepreload" crossorigin href="/stp-7970/assets/vendor-3dac6b8b.js">
+    <link rel="stylesheet" href="/stp-7970/assets/vendor-4362381a.css">
+    <link rel="stylesheet" href="/stp-7970/assets/index-bcd876b0.css">
   </head>
   <body>
     <header class="header">
@@ -176,90 +178,155 @@
 
 
     <section class="how" id="how">
-  <div class="container">
-    <div class="how-wrapper">
-      <h2 class="how-title">How to Play</h2>
-
-      <div class="how-carrousel">
-        <swiper-container
-          class="how-mySwiper"
-          effect="cards"
-          grab-cursor="true"
-        >
-          <swiper-slide class="how-mySwiper-slide">
-            <picture>
+  <div class="container how-clouds">
+    <h2 class="how-title">How to Play</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide how-mySwiper-slide">
+          <div class="slide-container">
+            <picture class="slide-image">
               <source
-                srcset="/stp-7970/assets/card2-desk1x-2128e106.png 1x, /stp-7970/assets/card2-desk2x-fd65cb58.png 2x"
+                srcset="/stp-7970/assets/card1-desk1x-abe51b00.png 1x, /stp-7970/assets/card1-desk2x-4f9a6bca.png 2x"
                 media="(min-width: 1200px)"
               />
               <img
-                src="/stp-7970/assets/card2-mob1x-649f5729.png"
-                srcset="/stp-7970/assets/card2-mob2x-60ce1aa3.png 2x"
-                alt="Slide"
-              /> </picture
-          ></swiper-slide>
-
-          <swiper-slide class="how-mySwiper-slide">
-            <picture>
-              <source
-                srcset="/stp-7970/assets/card3-desk1x-fa7d1879.png 1x, /stp-7970/assets/card3-desk2x-e9949bf6.png 2x"
-                media="(min-width: 1200px)"
-              />
-              <img
-                src="/stp-7970/assets/card3-mob1x-43761eeb.png"
-                srcset="/stp-7970/assets/card3-mob2x-1df92438.png 2x"
+                class="slide-image"
+                src="/stp-7970/assets/card1-mob1x-eec5f068.png"
+                srcset="/stp-7970/assets/card1-mob2x-d6d44147.png 2x"
                 alt="Slide"
               />
             </picture>
-          </swiper-slide>
+            <div class="slide-text-container">
+              <h3 class="slide-title">Select Your Aircraft</h3>
+              <p class="slide-text">
+                Choose your plane, each with its unique stats and abilities.
+              </p>
+            </div>
+          </div>
+        </div>
 
-          <swiper-slide class="how-mySwiper-slide">
-            <picture>
+        <div class="swiper-slide how-mySwiper-slide">
+          <div class="slide-container">
+            <picture class="slide-image">
               <source
-                srcset="/stp-7970/assets/card4-desk1x-097085f6.png 1x, /stp-7970/assets/card4-desk2x-83348fd1.png 2x"
+                srcset="/stp-7970/assets/card2-desk1x-7791022e.png 1x, /stp-7970/assets/card2-desk2x-2e03f8d9.png 2x"
                 media="(min-width: 1200px)"
               />
               <img
-                src="/stp-7970/assets/card4-mob1x-0632e471.png"
-                srcset="/stp-7970/assets/card4-mob2x-b380409c.png 2x"
+                class="slide-image"
+                src="/stp-7970/assets/card2-mob1x-697b97d1.png"
+                srcset="/stp-7970/assets/card2-mob2x-d7fd9f45.png 2x"
                 alt="Slide"
               />
             </picture>
-          </swiper-slide>
+            <div class="slide-text-container">
+              <h3 class="slide-title">Upgrade Your Plane</h3>
+              <p class="slide-text">
+                Use resources earned in-game to upgrade your aircraft for better
+                performance in combat and survival.
+              </p>
+            </div>
+          </div>
+        </div>
 
-          <swiper-slide class="how-mySwiper-slide">
-            <picture>
+        <div class="swiper-slide how-mySwiper-slide">
+          <div class="slide-container">
+            <picture class="slide-image">
               <source
-                srcset="/stp-7970/assets/card5-desk1x-5a653195.png 1x, /stp-7970/assets/card5-desk2x-38202b7e.png 2x"
+                srcset="/stp-7970/assets/card3-desk1x-4c9ba0d8.png 1x, /stp-7970/assets/card3-desk2x-b6ca3e4f.png 2x"
                 media="(min-width: 1200px)"
               />
               <img
-                src="/stp-7970/assets/card5-mob1x-5f765db4.png"
-                srcset="/stp-7970/assets/card5-mob2x-69aece93.png 2x"
+                class="slide-image"
+                src="/stp-7970/assets/card3-mob1x-3a92879a.png"
+                srcset="/stp-7970/assets/card3-mob2x-e0181636.png 2x"
                 alt="Slide"
               />
             </picture>
-          </swiper-slide>
+            <div class="slide-text-container">
+              <h3 class="slide-title">Complete Missions</h3>
+              <p class="slide-text">
+                Tackle a variety of missions, from storm navigation to aerial
+                combat, to progress through levels.
+              </p>
+            </div>
+          </div>
+        </div>
 
-          <swiper-slide class="how-mySwiper-slide">
-            <picture>
+        <div class="swiper-slide how-mySwiper-slide">
+          <div class="slide-container">
+            <picture class="slide-image">
               <source
-                srcset="/stp-7970/assets/card6-desk1x-ea3dc8f5.png 1x, /stp-7970/assets/card6-desk1x-ea3dc8f5.png 2x"
+                srcset="/stp-7970/assets/card4-desk1x-d0e8f73e.png 1x, /stp-7970/assets/card4-desk2x-f4ee4d92.png 2x"
                 media="(min-width: 1200px)"
               />
               <img
-                src="/stp-7970/assets/card6-mob1x-f899e3be.png"
-                srcset="/stp-7970/assets/card6-mob2x-d1760db6.png 2x"
+                class="slide-image"
+                src="/stp-7970/assets/card4-mob1x-9a45b210.png"
+                srcset="/stp-7970/assets/card4-mob2x-ee2f1f9f.png 2x"
                 alt="Slide"
               />
             </picture>
-          </swiper-slide>
-        </swiper-container>
+            <div class="slide-text-container">
+              <h3 class="slide-title">Fight Other Pilots</h3>
+              <p class="slide-text">
+                Engage in intense dogfights against AI or other players in
+                real-time multiplayer mode.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide how-mySwiper-slide">
+          <div class="slide-container">
+            <picture class="slide-image">
+              <source
+                srcset="/stp-7970/assets/card5-desk1x-0b5908d9.png 1x, /stp-7970/assets/card5-desk2x-f9925fbf.png 2x"
+                media="(min-width: 1200px)"
+              />
+              <img
+                class="slide-image"
+                src="/stp-7970/assets/card5-mob1x-9c5f7d40.png"
+                srcset="/stp-7970/assets/card5-mob2x-b79d66f4.png 2x"
+                alt="Slide"
+              />
+            </picture>
+            <div class="slide-text-container">
+              <h3 class="slide-title">Avoid Storms</h3>
+              <p class="slide-text">
+                Navigate through dynamic storms, which can damage your plane or
+                throw you off course.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide how-mySwiper-slide">
+          <div class="slide-container">
+            <picture>
+              <source
+                srcset="/stp-7970/assets/card6-desk1x-851cbd9e.png 1x, /stp-7970/assets/card6-desk2x-6651b14b.png 2x"
+                media="(min-width: 1200px)"
+              />
+              <img
+                class="slide-image"
+                src="/stp-7970/assets/card6-mob1x-60ee8d51.png"
+                srcset="/stp-7970/assets/card6-mob2x-149945bd.png 2x"
+                alt="Slide"
+              />
+            </picture>
+            <div class="slide-text-container">
+              <h3 class="slide-title">Collect Resources</h3>
+              <p class="slide-text">
+                Gather items and currency during missions to improve your
+                aircraft or unlock new abilities.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </section>
 
 
