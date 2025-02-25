@@ -46,7 +46,7 @@
     <script type="module" crossorigin src="/stp-7970/commonHelpers3.js"></script>
     <link rel="modulepreload" crossorigin href="/stp-7970/assets/vendor-81cc61c3.js">
     <link rel="stylesheet" href="/stp-7970/assets/vendor-4362381a.css">
-    <link rel="stylesheet" href="/stp-7970/assets/index-b02420a5.css">
+    <link rel="stylesheet" href="/stp-7970/assets/index-b72625fc.css">
   </head>
   <body>
     <header class="header">
@@ -145,14 +145,23 @@
       Wings are waiting for you - conquer the sky!
     </p>
     <div class="hero-images">
-      <img
-        srcset="/stp-7970/assets/iPhone15Pro1x-4619720a.png 1x, /stp-7970/assets/iPhone15Pro2x-ca678ff6.png 2x"
-        width="320"
-        height="252"
-        src="/stp-7970/assets/iPhone15Pro1x-4619720a.png"
-        alt="iPhone15Pro"
-        class="hero-img"
-      />
+      <picture class="hero-img">
+        <source
+          srcset="
+            ./img/hero_img/iPhone15-desc1x.png 1x,
+            ./img/hero_img/iPhone15-desc2x.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <img
+          class="hero-img"
+          
+          src="/stp-7970/assets/iPhone15-mob1x-ea98c163.png"
+          srcset="/stp-7970/assets/iPhone15-mob2x-a038ef94.png 2x"
+          alt="iPhone15Pro"
+        />
+      </picture>
+      
       <img
         srcset="/stp-7970/assets/favikon1x-94a801d9.png 1x, /stp-7970/assets/favikon2x-b0527e29.png 2x"
         width="80"
